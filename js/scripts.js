@@ -8,6 +8,6 @@ var indexOfNewName = names.indexOf(newName);
 console.log(indexOfNewName);
 
 if (indexOfNewName === -1) {
-    var x = names.push(newName);
+    names.push(newName);
     console.log(names); 
 }
